@@ -1401,14 +1401,14 @@ importers:
   test/middleware-config:
     dependencies:
       '@universal-middleware/core':
-        specifier: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a
-        version: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a
+        specifier: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21f
+        version: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21f
       '@universal-middleware/express':
         specifier: ^0.3.1
         version: 0.3.2
       '@universal-middleware/router':
-        specifier: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@7969c2a
-        version: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@7969c2a
+        specifier: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@8fbb21f
+        version: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@8fbb21f
       '@vitejs/plugin-react':
         specifier: ^4.3.4
         version: 4.3.4(vite@5.4.11(@types/node@22.10.2)(terser@5.31.0))
@@ -3901,8 +3901,8 @@ packages:
       hono:
         optional: true
 
-  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a':
-    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a}
+  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21f':
+    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21f}
     version: 0.3.3
     peerDependencies:
       '@cloudflare/workers-types': 'catalog:'
@@ -3928,8 +3928,8 @@ packages:
       hono:
         optional: true
 
-  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a59e8de9dfc42d9017704385b842261ce9':
-    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a59e8de9dfc42d9017704385b842261ce9}
+  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
+    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b}
     version: 0.3.3
     peerDependencies:
       '@cloudflare/workers-types': 'catalog:'
@@ -3958,12 +3958,16 @@ packages:
   '@universal-middleware/express@0.3.2':
     resolution: {integrity: sha512-65xWOpPHJKdN+t2/45S+WGwLjXz+6o3q6wZ2vMf5IUpYJVIDqU4uP4uEteyheU+/VPjfBmbjDZndUTnu05rGFA==}
 
-  '@universal-middleware/hono@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@7969c2a59e8de9dfc42d9017704385b842261ce9':
-    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@7969c2a59e8de9dfc42d9017704385b842261ce9}
+  '@universal-middleware/express@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/express@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
+    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/express@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b}
     version: 0.3.3
 
-  '@universal-middleware/router@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@7969c2a':
-    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@7969c2a}
+  '@universal-middleware/hono@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
+    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b}
+    version: 0.3.3
+
+  '@universal-middleware/router@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@8fbb21f':
+    resolution: {tarball: https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@8fbb21f}
     version: 0.1.0
 
   '@vitejs/plugin-react-swc@3.7.2':
@@ -9419,12 +9423,12 @@ snapshots:
       regexparam: 3.0.0
       tough-cookie: 5.0.0
 
-  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a':
+  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21f':
     dependencies:
       regexparam: 3.0.0
       tough-cookie: 5.0.0
 
-  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a59e8de9dfc42d9017704385b842261ce9':
+  '@universal-middleware/core@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
     dependencies:
       regexparam: 3.0.0
       tough-cookie: 5.0.0
@@ -9441,9 +9445,9 @@ snapshots:
       - h3
       - hono
 
-  '@universal-middleware/hono@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@7969c2a59e8de9dfc42d9017704385b842261ce9':
+  '@universal-middleware/express@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/express@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
     dependencies:
-      '@universal-middleware/core': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a59e8de9dfc42d9017704385b842261ce9
+      '@universal-middleware/core': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
       - '@hattip/core'
@@ -9453,10 +9457,23 @@ snapshots:
       - h3
       - hono
 
-  '@universal-middleware/router@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@7969c2a':
+  '@universal-middleware/hono@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b':
     dependencies:
-      '@universal-middleware/core': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@7969c2a59e8de9dfc42d9017704385b842261ce9
-      '@universal-middleware/hono': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@7969c2a59e8de9dfc42d9017704385b842261ce9
+      '@universal-middleware/core': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b
+    transitivePeerDependencies:
+      - '@cloudflare/workers-types'
+      - '@hattip/core'
+      - '@webroute/route'
+      - elysia
+      - fastify
+      - h3
+      - hono
+
+  '@universal-middleware/router@https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@8fbb21f':
+    dependencies:
+      '@universal-middleware/core': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b
+      '@universal-middleware/express': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/express@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b
+      '@universal-middleware/hono': https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/hono@8fbb21fe99427ffefd12cd68c1cbf30ecebeda8b
       rou3: 0.5.1
     transitivePeerDependencies:
       - '@cloudflare/workers-types'

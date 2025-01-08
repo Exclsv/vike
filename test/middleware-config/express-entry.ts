@@ -1,9 +1,7 @@
 import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { universalSymbol } from '@universal-middleware/core'
-import { createMiddleware } from '@universal-middleware/express'
-import { type MiddlewareDefinition, type RouteDefinition, UniversalRouter, apply } from '@universal-middleware/router'
+import { type DecoratedMiddleware, applyExpress } from '@universal-middleware/router'
 import express from 'express'
 import { getMiddlewares } from 'vike/__internal'
 
@@ -34,15 +32,9 @@ async function startServer() {
     app.use(viteDevMiddleware)
   }
 
-  const middlewares = (await getMiddlewares()) as (RouteDefinition | MiddlewareDefinition)[]
-  const router = new UniversalRouter()
-  apply(router, middlewares)
-  app.all('*', createMiddleware(() => router[universalSymbol])())
-  // TODO replace with UniversalExpressRouter once done.
-  //      It should look like this:
-  // const router = new UniversalExpressRouter(app)
-  // apply(router, middlewares)
-  //      So no need for manually calling app.*, and rely on express routing
+  const middlewares = (await getMiddlewares()) as DecoratedMiddleware[]
+  // `applyExpress` will move to: import { apply } from '@universal-middleware/express'
+  applyExpress(app, middlewares)
 
   app.listen(port, () => {
     console.log(`Server listening on http://localhost:${port}`)

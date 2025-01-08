@@ -1,4 +1,4 @@
-import { withRoute } from '@universal-middleware/router'
+import { decorate } from '@universal-middleware/router'
 
 export { middlewareTelefunc }
 
@@ -30,4 +30,7 @@ const telefuncUniversalMiddleware: UniversalMiddleware = async (request, context
   })
 }
 
-const middlewareTelefunc = withRoute(telefuncUniversalMiddleware, 'POST', '/_telefunc')
+const middlewareTelefunc = decorate(telefuncUniversalMiddleware, {
+  method: 'POST',
+  path: '/_telefunc'
+})

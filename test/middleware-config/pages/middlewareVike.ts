@@ -1,4 +1,4 @@
-import { withRoute } from '@universal-middleware/router'
+import { decorate } from '@universal-middleware/router'
 
 export { middlewareVike }
 
@@ -20,4 +20,7 @@ const vikeUniversalMiddleware: UniversalMiddleware = async (request, context, ru
   })
 }
 
-const middlewareVike = withRoute(vikeUniversalMiddleware, 'GET', '/**')
+const middlewareVike = decorate(vikeUniversalMiddleware, {
+  method: 'GET',
+  path: '/**'
+})
