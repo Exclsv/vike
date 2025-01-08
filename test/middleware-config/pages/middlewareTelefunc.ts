@@ -31,6 +31,7 @@ const telefuncUniversalMiddleware: UniversalMiddleware = async (request, context
 }
 
 const middlewareTelefunc = decorate(telefuncUniversalMiddleware, {
+  name: 'telefunc',
   method: 'POST',
   path: '/_telefunc'
 })
