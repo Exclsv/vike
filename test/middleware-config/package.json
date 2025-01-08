@@ -5,9 +5,9 @@
     "preview": "cross-env NODE_ENV=production tsx ./express-entry.ts"
   },
   "dependencies": {
-    "@universal-middleware/core": "https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@d369595",
+    "@universal-middleware/core": "https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/core@d2bca88",
     "@universal-middleware/express": "^0.3.1",
-    "@universal-middleware/router": "https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@d369595",
+    "@universal-middleware/router": "https://pkg.pr.new/magne4000/universal-middleware/@universal-middleware/router@d2bca88",
     "@vitejs/plugin-react": "^4.3.4",
     "express": "^4.21.2",
     "react": "^18.3.1",
